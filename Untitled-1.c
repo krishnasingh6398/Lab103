@@ -13,7 +13,7 @@ int main(){
     printf("enter position: ");
     scanf("%d",&pos);
     for(int i=pos-1;i=n-1;i++){
-        arrr[i]=arr[i+1];
+        arr[i]=arr[i+1];
     }
     n--;
     for(int i=0;i<n;i++){
